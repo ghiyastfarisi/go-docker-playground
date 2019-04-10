@@ -1,0 +1,1 @@
+docker run -dit --restart unless-stopped --name godockplay-dev -v $(pwd):/app -p 8080:8080 godockplay:dev
